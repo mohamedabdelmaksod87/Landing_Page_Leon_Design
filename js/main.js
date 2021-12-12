@@ -1,7 +1,7 @@
 /* When the user clicks on menu icon, toggle between hiding and showing the dropdown content */
 function showMenu() {
-  document.querySelector(".header .links ul").classList.toggle("show");
-  document.querySelector(".header .links .icon").classList.toggle("hide");
+  document.querySelector(".header ul").classList.toggle("show");
+  document.querySelector(".header .links .menu-icon").classList.toggle("hide");
   document.querySelector(".header .links .close-icon").classList.toggle("show");
 }
 
