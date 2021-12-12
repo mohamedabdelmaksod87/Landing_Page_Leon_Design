@@ -100,7 +100,7 @@ if screen width > min width ==> let container width = 750px and so on with other
   background-color: var(--section-bkground);
 }
 .header .container {
-  padding: 10px 15px 10px 0;
+  padding: 15px 15px 15px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -148,7 +148,10 @@ if screen width > min width ==> let container width = 750px and so on with other
     height: 3px;
     width: 100%;
   }
-  .header .links .menu-icon span:not(:last-child) {
+  .header .links .menu-icon span:first-child {
+    margin-top: 10.5px;
+  }
+  .header .links .menu-icon span {
     margin-bottom: 5px;
   }
   .header .links .menu-icon.hide {
@@ -156,8 +159,7 @@ if screen width > min width ==> let container width = 750px and so on with other
   }
   .header .links .close-icon.show {
     display: block;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
   }
   .header ul {
     display: none;
